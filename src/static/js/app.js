@@ -5,7 +5,9 @@ function App() {
             <Row>
                 <Col md={{ offset: 3, span: 6 }}>
                     <TodoListCard />
-                </Col>
+                
+ <p className="text-center">You have no todo task yet! Go ahead and add one!</p>
+</Col>
             </Row>
         </Container>
     );
